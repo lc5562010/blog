@@ -1,0 +1,30 @@
+{
+    "url": "http://typescript.codes",
+    "database": {
+        "client": "mysql",
+        "connection": {
+             "host": "127.0.0.1",
+             "user": "ghost",
+             "password": "123456",
+             "database": "ghost",
+             "charset": "utf8"
+        },
+        "debug": false
+    },
+    "paths": {
+        "contentPath": "content/"
+    },
+    "privacy": {
+        "useRpcPing": false,
+        "useUpdateCheck": true
+    },
+    "useMinFiles": false,
+    "caching": {
+        "theme": {
+            "maxAge": 0
+        },
+        "admin": {
+            "maxAge": 0
+        }
+    }
+}
